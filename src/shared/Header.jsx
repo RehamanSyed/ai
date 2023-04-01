@@ -79,9 +79,8 @@ const Header = () => {
           </nav>
           <motion.div
             className={`${
-              showmenu ? "block" : "hidden"
-            } bg-white h-screen top-0 text-black absolute left-0 z-10 w-full`}
-            animate={{ x: [0, 0] }}
+              showmenu ? "block top-0" : "hidden -top-100"
+            } bg-white h-[45%]  text-black absolute transition-all duration-500 ease-in-out  left-0 z-10 w-full`}
             transition={{
               duration: 5,
             }}
