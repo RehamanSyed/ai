@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Header from "./shared/Header";
 import robotimg from "./image/robot.png";
-
+import bgimg from "./image/BG.svg";
 function App() {
   const imgVariant = {
     hidden: {
@@ -15,7 +15,10 @@ function App() {
     },
   };
   return (
-    <div className="bg-[#030c39] h-screen text-white">
+    <div
+      className="bg-[#030c39] h-screen text-white"
+      style={{ backgroundImage: `url(${bgimg})` }}
+    >
       <Header />
       <section className="absolute h-screen inset-0 flex justify-center items-center">
         <motion.div className="container mx-auto w-[300px]">
@@ -59,7 +62,7 @@ function App() {
             <button className="text-md bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:bg-blue-700 text-white font-bold py-2 px-4 w-56  rounded-full">
               Read More
             </button>
-            <button className="text-md bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-gradient-to-r from-indigo-500 via-purple-500 rounded-full  w-56">
+            <button className="text-md text-white bg-transparent  font-semibold hover:text-white py-2 px-4 border border-gradient-to-r from-indigo-500 via-purple-500 rounded-full  w-56">
               Tell a friend
             </button>
           </div>

@@ -1,0 +1,46 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1000" width="1500" height="1000">
+	<title>3216428-ai</title>
+	<defs>
+		<radialGradient id="g1" cx="766.3" cy="297.6" r="674.8" gradientUnits="userSpaceOnUse">
+			<stop offset=".1" stop-color="#0b72be"/>
+			<stop offset=".8" stop-color="#1d064a"/>
+		</radialGradient>
+		<linearGradient id="g2" x1="1028.2" y1="-194.7" x2="1028.2" y2="887.2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#1c0c50" stop-opacity="0"/>
+			<stop offset=".8" stop-color="#1d064a" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="g3" x1="706.3" y1="517.3" x2="938.9" y2="1303.8" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#2a096b"/>
+			<stop offset=".6" stop-color="#ff98ed"/>
+		</linearGradient>
+		<linearGradient id="g4" x1="2051.1" y1="502.2" x2="1397.2" y2="1954.8" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#2a096b"/>
+			<stop offset=".7" stop-color="#ff98ed"/>
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: url(#g2) } 
+		.s2 { fill: url(#g3) } 
+		.s3 { fill: url(#g4) } 
+	</style>
+	<g id="OBJECTS">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Path&gt;" class="s0" d="m-29.9-53.7h1588.2v1058.4h-1588.2z"/>
+					<g id="&lt;Group&gt;">
+					</g>
+					<g id="&lt;Group&gt;">
+						<path id="&lt;Path&gt;" class="s1" d="m51.1 106.8h1377.2v891.4h-1377.2z"/>
+						<g id="&lt;Group&gt;">
+							<path id="&lt;Path&gt;" class="s2" d="m-30.9 363.2c0 0 23.9 110.6 116.2 155.5 92.3 45 151.4 132.1 155 228.1 3.7 96 154.9 255.3 154.9 255.3h-426.4z"/>
+							<path id="&lt;Path&gt;" class="s3" d="m1556.6 363.2c0 0-23.9 110.6-116.2 155.5-92.3 45-151.3 132.1-155 228.1-3.7 96-152.7 255.3-152.7 255.3h424.3z"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
