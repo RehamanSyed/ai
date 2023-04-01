@@ -86,14 +86,13 @@ const Header = () => {
               duration: 5,
             }}
           >
-            <button
-              className=" absolute right-3 top-2"
-              onClick={() => setShowMenu(false)}
-            >
-              <AiFillCloseCircle size="28" />
-            </button>
-
-            <div className="mt-14">
+            <div className="flex justify-between items-centerp  p-3">
+              <h1 className="text-3xl font-bold">Logo</h1>
+              <button className=" " onClick={() => setShowMenu(false)}>
+                <AiFillCloseCircle size="32" />
+              </button>
+            </div>
+            <div className="mt-5">
               <input
                 type="text"
                 className="border p-2 px-5  outline-none w-[90%] rounded-lg mx-4 border-black"
@@ -104,7 +103,7 @@ const Header = () => {
               {mobilemenu.map((list, idx) => {
                 return (
                   <li className="">
-                    <a href="#" className="flex py-2 px-5 ">
+                    <a href="#" className="flex py-3 px-5 font-semibold">
                       {list.name}
                     </a>
                   </li>
