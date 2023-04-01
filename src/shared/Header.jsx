@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { AiFillCloseCircle, AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import { IoSearchOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
 const Header = () => {
   const [showmenu, setShowMenu] = useState(false);
-
   const menu = [
     {
       name: "Services",
@@ -60,14 +60,14 @@ const Header = () => {
               <ul className="text-sm flex lg:flex-grow space-x-10">
                 {menu.map((list, idx) => {
                   return (
-                    <li>
-                      <a
-                        href="#"
+                    <li key={idx}>
+                      <Link
+                        to="/"
                         className="block mt-4 lg:flex justify-between items-center space-x-3 lg:mt-0  mr-4"
                       >
                         {list.name}
                         {list.hasIcon ? list.icon : ""}
-                      </a>
+                      </Link>
                     </li>
                   );
                 })}
@@ -101,10 +101,10 @@ const Header = () => {
             <ul className="mt-5 w-full">
               {mobilemenu.map((list, idx) => {
                 return (
-                  <li className="">
-                    <a href="#" className="flex py-3 px-5 font-semibold">
+                  <li className="" key={idx}>
+                    <Link to="/" className="flex py-3 px-5 font-semibold">
                       {list.name}
-                    </a>
+                    </Link>
                   </li>
                 );
               })}
