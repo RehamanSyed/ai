@@ -16,7 +16,7 @@ function App() {
   };
   return (
     <div
-      className="bg-[#030c39] h-screen text-white"
+      className="bg-[#030c39] h-screen text-white bg-cover bg-center"
       style={{ backgroundImage: `url(${bgimg})` }}
     >
       <Header />
