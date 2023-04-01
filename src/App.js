@@ -33,11 +33,13 @@ function App() {
     >
       <Header />
       <section className="absolute min-h-screen inset-0 flex justify-center items-center">
+        {/* container absolute with center flex */}
         <motion.div className="container mx-auto ">
           <div className="flex justify-center items-center flex-col  mb-5 text-center">
             <div className=" absolute  w-64">
               <img src={phone} />
             </div>
+            {/* robot animation slide infity times */}
             <motion.img
               variants={imgVariant}
               transition={{
@@ -50,6 +52,7 @@ function App() {
               alt="robot"
               className="w-4/5 h-96"
             />
+            {/* dotes image blinking aanimation infity times */}
             <div>
               <motion.img
                 src={dots}
@@ -61,7 +64,7 @@ function App() {
                 transition={{ repeat: Infinity, duration: 5 }}
               />
             </div>
-
+            {/* Text typing with infinity times */}
             <Typical
               steps={["Artifical", 1000, "Artifical Intelligence", 500]}
               loop={Infinity}
@@ -72,6 +75,8 @@ function App() {
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
               rem perspiciatis doloribus ,
             </p>
+
+            {/* Buttons */}
             <div className="flex justify-center space-x-3 flex-wrap   mt-5 ">
               <button className="flex  items-center text-md bg-gradient-to-r from-[#2a096b] from-10% via-[#2a096b] via-30% to-[#7a3f9c] to-90% hover:bg-blue-700 text-white font-bold py-2 px-4 w-48 mb-3 md:mb-0   rounded-full">
                 Read More <BsArrowRight className="ml-2" />
