@@ -4,10 +4,7 @@ import { IoSearchOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
 const Header = () => {
   const [showmenu, setShowMenu] = useState(false);
-  const variants = {
-    open: { opacity: 1, x: 0 },
-    closed: { opacity: 0, x: "-100%" },
-  };
+
   const menu = [
     {
       name: "Services",
@@ -79,8 +76,11 @@ const Header = () => {
           </nav>
           <motion.div
             className={`${
-              showmenu ? "block top-0" : "hidden -top-100"
-            } bg-white h-[45%]  text-black absolute transition-all duration-500 ease-in-out  left-0 z-10 w-full`}
+              showmenu ? "block top-0" : "hidden -top-100 "
+            } bg-white h-[45%]  text-black absolute  transition-all duration-500 ease-in-out  left-0 z-10 w-full`}
+            animate={{ y: 0 }}
+            initial={{ y: 0 }}
+            exit={{ y: 100 }}
             transition={{
               duration: 5,
             }}
