@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="bg-[#030c39] h-screen text-white">
       <Header />
-      <section>
+      <section className="absolute h-screen inset-0 flex justify-center items-center">
         <motion.div className="container mx-auto w-[300px]">
           <div className="flex justify-center items-center flex-col space-y-10 mb-5 text-center">
             <motion.img
