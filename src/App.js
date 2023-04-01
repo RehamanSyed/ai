@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import Header from "./shared/Header";
 import robot from "./image/robot.svg";
 
@@ -53,11 +53,10 @@ function App() {
               className="w-4/5 h-96"
             />
             {/* dotes image blinking aanimation infity times */}
-            <div>
+            <div className="absolute inset-0 w-full">
               <motion.img
                 src={dots}
                 style={{}}
-                className="cursor-pointer absolute inset-0 w-full"
                 variants={dotsVariant}
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 0.9 }}
