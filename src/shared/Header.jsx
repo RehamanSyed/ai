@@ -17,7 +17,7 @@ const Header = () => {
     {
       name: "Search",
       hasIcon: true,
-      icon: <IoSearchOutline />,
+      icon: <IoSearchOutline className="ml-2" />,
     },
   ];
   return (
@@ -27,7 +27,7 @@ const Header = () => {
           <div className="flex items-center flex-shrink-0  mr-6">
             <span className="font-semibold text-2xl tracking-tight">LOGO</span>
           </div>
-          {/* <div className="block lg:hidden">
+          <div className="flex lg:hidden">
             <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
               <svg
                 className="fill-current h-3 w-3"
@@ -38,17 +38,18 @@ const Header = () => {
                 <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
               </svg>
             </button>
-          </div> */}
-          <div className="block lg:flex lg:items-center lg:w-auto">
+          </div>
+          <div className="hidden lg:flex lg:items-center lg:w-auto">
             <ul className="text-sm flex lg:flex-grow space-x-10">
               {menu.map((list, idx) => {
                 return (
                   <li>
                     <a
                       href="#responsive-header"
-                      className="block mt-4 lg:inline-block lg:mt-0  mr-4"
+                      className="block mt-4 lg:flex justify-between items-center space-x-3 lg:mt-0  mr-4"
                     >
                       {list.name}
+                      {list.hasIcon ? list.icon : ""}
                     </a>
                   </li>
                 );
