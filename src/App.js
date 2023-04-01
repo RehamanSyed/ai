@@ -66,18 +66,17 @@ function App() {
               steps={["Artifical", 1000, "Artifical Intelligence", 500]}
               loop={Infinity}
               wrapper="h1"
-              className="text-[36px] text-center h-32 md:text-5xl lg:text-[60px] my-5 font-extrabold leading-2 relative z-10 w-96"
+              className="text-[38px] text-center md:text-5xl lg:text-[60px] my-0 lg:my-5 font-extrabold leading-2 relative z-10 w-56 lg:w-96 h-32 lg:h-auto"
             />
-
-            <p className="">
+            <p className="relative z-10 p-5">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
               rem perspiciatis doloribus ,
             </p>
-            <div className="flex justify-center space-x-3   mt-5 ">
-              <button className="flex  items-center text-md bg-gradient-to-r from-[#2a096b] from-10% via-[#2a096b] via-30% to-[#7a3f9c] to-90% hover:bg-blue-700 text-white font-bold py-2 px-4   rounded-full">
+            <div className="flex justify-center space-x-3 flex-wrap   mt-5 ">
+              <button className="flex  items-center text-md bg-gradient-to-r from-[#2a096b] from-10% via-[#2a096b] via-30% to-[#7a3f9c] to-90% hover:bg-blue-700 text-white font-bold py-2 px-4 w-48 mb-3 md:mb-0   rounded-full">
                 Read More <BsArrowRight className="ml-2" />
               </button>
-              <button className="flex  items-center text-md text-white bg-transparent  font-semibold hover:text-white py-2 px-4 border border-color-gradient-to-r from-[#2a096b]  via-[#2a096b] via-30% to-[#7a3f9c] to-90% rounded-full ">
+              <button className="flex  items-center text-md text-white bg-transparent  font-semibold hover:text-white py-2 px-4 border border-color-gradient-to-r from-[#2a096b]  via-[#2a096b] via-30% to-[#7a3f9c] to-90% rounded-full w-48">
                 Tell a friend <BsArrowRight className="ml-2" />
               </button>
             </div>
