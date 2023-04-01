@@ -59,61 +59,19 @@ function App() {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 0.9 }}
                 transition={{ repeat: Infinity, duration: 5 }}
-                // transition={{
-                //   repeat: Infinity,
-                //   repeatDelay: 4,
-                //   ease: "linear",
-                //   duration: 5,
-                // }}
               />
             </div>
 
-            {/* <motion.div
-              style={{ overflow: "hidden", display: "flex", fontSize: "2rem" }}
-              variants={container}
-              initial="hidden"
-              animate="visible"
-            >
-              {letters.map((letter, index) => (
-                <motion.h1
-                  variants={child}
-                  key={index}
-                  className=" text-[36px] md:text-5xl lg:text-[60px] font-extrabold mb-5 relative z-10"
-                >
-                  {letter === " " ? "\u00A0" : letter}
-                </motion.h1>
-              ))}
-            </motion.div> */}
-
             <Typical
-              steps={["Artifical", 1000, "Artifical Intelligence", 1000]}
+              steps={["Artifical", 1000, "Artifical Intelligence", 500]}
               loop={Infinity}
               wrapper="h1"
-              className="text-[36px] md:text-5xl lg:text-[60px] my-10 font-extrabold leading-2 relative z-10"
+              className="text-[36px] text-center h-32 md:text-5xl lg:text-[60px] my-5 font-extrabold leading-2 relative z-10 w-96"
             />
-            {/* <motion.h1
-              className=" text-[36px] md:text-5xl lg:text-[60px] font-extrabold mb-5 relative z-10 leading-tight"
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{
-                duration: 1,
-                delay: 0.1,
-                ease: [0.5, 0.71, 1, 1.5],
-              }}
-              initial={{ opacity: 0, scale: 0.5 }}
-            >
-              Artifical Intelligence
-            </motion.h1> */}
-            <p
-            // animate={{ opacity: 1, scale: 1 }}
-            // transition={{
-            //   duration: 1,
-            //   delay: 0.1,
-            //   ease: [0.5, 0.71, 1, 1.5],
-            // }}
-            // initial={{ opacity: 0, scale: 0.5 }}
-            >
+
+            <p className="">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
-              rem perspiciatis doloribus corporis,
+              rem perspiciatis doloribus ,
             </p>
             <div className="flex justify-center space-x-3   mt-5 ">
               <button className="flex  items-center text-md bg-gradient-to-r from-[#2a096b] from-10% via-[#2a096b] via-30% to-[#7a3f9c] to-90% hover:bg-blue-700 text-white font-bold py-2 px-4   rounded-full">
