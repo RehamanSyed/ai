@@ -1,0 +1,38 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 606" width="368" height="606">
+	<title>phone-svg</title>
+	<defs>
+		<linearGradient id="g1" x1="682.1" y1="4.3" x2="682.1" y2="603.1" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#71f2ff" stop-opacity=".2"/>
+			<stop offset="1" stop-color="#71f2ff" stop-opacity=".2"/>
+		</linearGradient>
+		<linearGradient id="g2" x1="630" y1="35.6" x2="630" y2="571.8" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#71f2ff" stop-opacity=".2"/>
+			<stop offset="1" stop-color="#71f2ff" stop-opacity=".2"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: none;stroke: #71f2ff;stroke-width: 2 } 
+		.s2 { fill: url(#g2) } 
+	</style>
+	<g id="OBJECTS">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<g id="&lt;Group&gt;">
+					<g id="&lt;Group&gt;">
+						<g id="&lt;Group&gt;">
+							<g id="&lt;Group&gt;">
+								<path id="&lt;Path&gt;" class="s0" d="m331.9 603.1h-295.8c-17.7 0-32.1-14.3-32.1-32v-534.7c0-17.7 14.4-32.1 32.1-32.1h295.8c17.7 0 32.1 14.4 32.1 32.1v534.7c0 17.7-14.4 32-32.1 32z"/>
+								<path id="&lt;Path&gt;" class="s1" d="m331.9 603.1h-295.8c-17.7 0-32.1-14.3-32.1-32v-534.7c0-17.7 14.4-32.1 32.1-32.1h295.8c17.7 0 32.1 14.4 32.1 32.1v534.7c0 17.7-14.4 32-32.1 32z"/>
+							</g>
+							<g id="&lt;Group&gt;">
+								<path id="&lt;Path&gt;" class="s2" d="m313.1 571.8h-258.2c-17.7 0-32-14.3-32-32v-472.1c0-17.7 14.3-32.1 32-32.1h258.2c17.7 0 32 14.4 32 32.1v472.1c0 17.7-14.3 32-32 32z"/>
+								<path id="&lt;Path&gt;" class="s1" d="m313.1 571.8h-258.2c-17.7 0-32-14.3-32-32v-472.1c0-17.7 14.3-32.1 32-32.1h258.2c17.7 0 32 14.4 32 32.1v472.1c0 17.7-14.3 32-32 32z"/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
