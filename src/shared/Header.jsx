@@ -77,7 +77,7 @@ const Header = () => {
           <motion.div
             className={`${
               showmenu ? "block top-0" : "hidden -top-100 "
-            } bg-white h-[45%]  text-black absolute  transition-all duration-500 ease-in-out  left-0 z-20 w-full`}
+            } bg-white h-[300px]  text-black absolute  transition-all duration-500 ease-in-out  left-0 z-20 w-full`}
             animate={{ y: 0 }}
             initial={{ y: 0 }}
             exit={{ y: 100 }}
