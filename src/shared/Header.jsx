@@ -40,9 +40,9 @@ const Header = () => {
   ];
   return (
     <>
-      <header className="App-header">
+      <header className="App-header ">
         <div className="container mx-auto w-full">
-          <nav className="flex items-center justify-between flex-wrap  p-6">
+          <nav className="flex items-center justify-between flex-wrap  p-6 relative z-10">
             <div className="flex items-center flex-shrink-0  mr-6">
               <span className="font-semibold text-2xl tracking-tight">
                 LOGO
@@ -77,7 +77,7 @@ const Header = () => {
           <motion.div
             className={`${
               showmenu ? "block top-0" : "hidden -top-100 "
-            } bg-white h-[45%]  text-black absolute  transition-all duration-500 ease-in-out  left-0 z-10 w-full`}
+            } bg-white h-[45%]  text-black absolute  transition-all duration-500 ease-in-out  left-0 z-20 w-full`}
             animate={{ y: 0 }}
             initial={{ y: 0 }}
             exit={{ y: 100 }}
