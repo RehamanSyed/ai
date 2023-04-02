@@ -8,7 +8,7 @@ import HeroSection from "../components/HeroSection";
 const Home = () => {
   return (
     <div
-      className="min-h-screen text-white bg-cover bg-center bg-no-repeat"
+      className="min-h-screen text-white  w-full bg-cover bg-center bg-no-repeat"
       style={{ backgroundColor: "#1d064a", backgroundImage: `url(${bgimg})` }}
     >
       <Header />
